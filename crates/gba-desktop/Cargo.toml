@@ -1,0 +1,10 @@
+[package]
+name = "gba-desktop"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gba-core = { path = "../gba-core" }
+minifb = "0.27"

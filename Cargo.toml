@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/gba-core",
+    "crates/gba-desktop",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Haikal"]
+license = "MIT OR Apache-2.0"
